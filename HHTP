@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarantul – Джинсовий Бренд</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Tarantul</div>
+        <nav>
+            <ul>
+                <li><a href="#men">Чоловікам</a></li>
+                <li><a href="#women">Жінкам</a></li>
+                <li><a href="#accessories">Аксесуари</a></li>
+                <li><a href="#new">Новинки</a></li>
+                <li><a href="#sale">Розпродаж</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Banner -->
+    <section class="banner">
+        <h1>Відкрийте силу в джинсах від Tarantul</h1>
+        <p>Знайдіть свій стиль разом із міцними та стильними джинсами</p>
+    </section>
+
+    <!-- Product Sections -->
+    <section id="men" class="products">
+        <h2>Чоловікам</h2>
+        <div class="product">
+            <img src="images/mens-jeans.jpg" alt="Чоловічі джинси">
+            <h3>Чоловічі Джинси</h3>
+            <p>Ціна: 1500 грн</p>
+        </div>
+        <div class="product">
+            <img src="images/mens-jacket.jpg" alt="Чоловіча джинсова куртка">
+            <h3>Чоловіча Куртка</h3>
+            <p>Ціна: 2000 грн</p>
+        </div>
+    </section>
+
+    <section id="women" class="products">
+        <h2>Жінкам</h2>
+        <div class="product">
+            <img src="images/womens-jeans.jpg" alt="Жіночі джинси">
+            <h3>Жіночі Джинси</h3>
+            <p>Ціна: 1600 грн</p>
+        </div>
+        <div class="product">
+            <img src="images/womens-jacket.jpg" alt="Жіноча джинсова куртка">
+            <h3>Жіноча Куртка</h3>
+            <p>Ціна: 2100 грн</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>Бренд Tarantul символізує силу та витривалість. Ми об’єднуємо натуральність із міським стилем, створюючи одяг для сміливих особистостей.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Tarantul. Всі права захищені.</p>
+        <div class="socials">
+            <a href="#">Instagram</a> | <a href="#">Pinterest</a>
+        </div>
+    </footer>
+</body>
+</html>
